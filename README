@@ -1,0 +1,6 @@
+DESCRIPTION:
+Cryptographic OIDs translations in gettext format
+
+in C:
+#define _loid(oid)	dcgettext("oidtdb_long",oid,LC_MESSAGES)
+#define _soid(oid)	dcgettext("oidtdb_short",oid,LC_MESSAGES)
