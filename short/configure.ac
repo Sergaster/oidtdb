@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([oid-short], m4_esyscmd([../build-aux/git-version-gen ../.tarball-version]))
+AC_INIT([oid-short], [0.1])
 AC_CONFIG_AUX_DIR([../build-aux])
 AM_INIT_AUTOMAKE([foreign subdir-objects])
 # Checks for programs.
