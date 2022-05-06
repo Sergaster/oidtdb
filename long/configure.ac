@@ -16,7 +16,7 @@ AM_INIT_AUTOMAKE([foreign subdir-objects])
 # Checks for library functions.
 
 AM_GNU_GETTEXT([external])
-AM_GNU_GETTEXT_VERSION([0.19])
+AM_GNU_GETTEXT_VERSION([0.20])
 
 AC_CONFIG_FILES([Makefile])
 AC_CONFIG_FILES([po/Makefile.in])
